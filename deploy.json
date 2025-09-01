@@ -1,0 +1,43 @@
+{
+  "name": "star-rdp-vps",
+  "version": "1.0.0",
+  "description": "Professional RDP/VPS selling platform with enhanced animations",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "deployment": {
+    "railway": {
+      "buildCommand": "npm run build",
+      "startCommand": "npm start",
+      "port": 5000
+    },
+    "render": {
+      "buildCommand": "npm run build",
+      "startCommand": "npm start",
+      "port": 5000
+    },
+    "vercel": {
+      "buildCommand": "npm run build",
+      "outputDirectory": "dist",
+      "port": 5000
+    }
+  },
+  "features": [
+    "Responsive design with Tailwind CSS",
+    "Framer Motion animations",
+    "PostgreSQL database with Drizzle ORM", 
+    "Replit authentication",
+    "Razorpay payment gateway",
+    "Cryptocurrency payment support",
+    "Cart and order management",
+    "Admin panel",
+    "Email notifications",
+    "Telegram integration"
+  ],
+  "owner": {
+    "email": "fxpl.hi2@gmail.com",
+    "telegram": "@XSTARxOWNER"
+  }
+}
